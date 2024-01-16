@@ -16,6 +16,12 @@ const BlogPage = () => {
       <div className={styles.post}>
         <PostCard />
       </div>
+      <div className={styles.post}>
+        <PostCard />
+      </div>
+      <div className={styles.post}>
+        <PostCard />
+      </div>
     </div>
   );
 };

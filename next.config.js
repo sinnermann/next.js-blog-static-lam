@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "www.looper.com",
+        hostname: "lumiere-a.akamaihd.net",
       },
       {
         protocol: "https",

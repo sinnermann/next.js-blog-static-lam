@@ -13,7 +13,7 @@ const AboutPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
-        <h2 className={styles.subtitle}>About The Agency</h2>
+        <h2 className={styles.subtitle}>Agency Info</h2>
         <h1 className={styles.title}>
           We create digital ideas that are bigger, bolder, braver and better.
         </h1>
@@ -40,9 +40,9 @@ const AboutPage = () => {
       </div>
       <div className={styles.imgContainer}>
         <Image
-          src="/about.png"
+          src="/hero4.png"
           alt="About Image"
-          fill
+          width={600} height={600}
           className={styles.img}
         />
       </div>
