@@ -14,6 +14,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "static.tvtropes.org",
       },
+      {
+        protocol: "https",
+        hostname: "www.looper.com",
+      },
     ],
   },
 };

@@ -13,9 +13,9 @@ const PostCard = ({post}) => {
         
       </div>
       <div className={styles.bottom}>
-        <h1 className={styles.title}>Title</h1>
-        <p className={styles.desc}>Desc</p>
-        <Link className={styles.link} href="/blog/1">READ MORE</Link>
+        <h1 className={styles.title}>{post.title}</h1>
+        <p className={styles.desc}>{post.body}</p>
+        <Link className={styles.link} href={`/blog/${post.id}`}>READ MORE</Link>
       </div>
     </div>
   )

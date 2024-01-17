@@ -6,7 +6,14 @@ import Image from "next/image";
 const Navbar = () => {
   return (
     <div className={styles.container}>
-      <Link href="/" className={styles.logo}><Image src="/Marvel_Studios_2016_logo.svg.png" width={200} height={50}/> </Link>
+      <Link href="/" className={styles.logo}>
+        <Image
+          src="/Marvel_Studios_2016_logo.svg.png"
+          alt="hero-image"
+          width={200}
+          height={50}
+        />{" "}
+      </Link>
       <div>
         {/* THE FIRST WAY TO CREATE LINKS FOR PAGES
         <Link href="/">Homepage</Link>
